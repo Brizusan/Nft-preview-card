@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | NFT preview card component</title>
+
+  <link rel="stylesheet" href="./css/index.css">
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { padding-top: 5rem;font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+  <main class="card container">
+    <div class="card__img-container">
+      <img class="card__img" src="images/image-equilibrium.jpg"  loading ="lazy" alt="Equilibrium img">
+      <div class="card__img-bck"></div>
+      <div class="card__img-view"></div>
+    </div>
+    <h1 class="card__title">Equilibrium #3429</h1>
+    <p class="card__texts">Our Equilibrium collection promotes balance and calm.</p>
+    <div class="card__options">
+      <div class="option center">
+        <img src="images/icon-ethereum.svg" loading ="lazy" alt="eterium icon">
+        <span>0.041ETH</span>
+      </div>
+      <div class="option center">
+        <img src="images/icon-clock.svg" loading ="lazy" alt="clock icon">
+        <span>3 days left</span>
+      </div>      
+    </div>
+    <footer class="card__footer">
+      <img class="card__footer__img" src="images/image-avatar.png"  loading ="lazy" alt="avatar image">
+      <p class="card__footer-text">Creation of <a href="#" class="card__footer-tm">Jules Wyvern</a></p>
+    </footer>
+  </main>
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="https://github.com/Brizusan" target="_blank">@Brizusan</a>.
+  </div>
+</body>
+</html>
